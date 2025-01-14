@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marlon Pedro Morari - Desenvolvedor Frontend Júnior</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">MM</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá,</p>
+          <h1>Sou o Marlon</h1>
+          <h2>Desenvolvedor Frontend Júnior</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/marlon-morari-934a1a21a/" class="outer-shadow" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/MarlonMorari" class="outer-shadow" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/marlon_morari/" class="outer-shadow" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/imagens/marlon-foto.jpeg" alt="foto do perfil" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/marlon-foto.jpeg" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Meu nome é Marlon Pedro Morari e sou um desenvolvedor frontend em formação!</strong>
+            Gosto da área de tecnologia, comecei a me especializar para poder fazer parte desse mercado e tenho certeza que posso contribuir em qualquer time com as minhas
+            habilidades.
+          </p>
+
+          <p>
+            Estou sempre criando novos projetos e participando de comunidades de programação para buscar feedback e
+            dicas de outros desenvolvedores e desenvolvedoras, buscando sempre a evolução.
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="/src/arquivos/curriculo-marlon-morari.pdf" class="botao outer-shadow">Veja meu
+              Currículo!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>Estou estudando JavaScript e ja incorporei algumas vezes a linguagem em alguns projetos meus.</p>
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-java-plain" id="git"></i>
+          </div>
+          <h3>Java</h3>
+          <p>Obtive alguma experiência com java através dos meus estudos, e tenho um pouco de conhecimento sobre a linguagem</p>
+        </div>
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>Já convivo com o uso da linguagem a algum tempo, inclusive concluí vários projetos de páginas web
+            utilizando a mesma.</p>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>Me sinto bem confiante com o uso do CSS, pois estou usando a linguagem a alguns meses e em diversos
+            projetos com propostas diferentes.</p>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p>Tenho vários projetos concluídos e em produção utilizando Github, me sinto bem confiante com a plataforma.
+          </p>
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+          <p>Já obtive bastante experiência com o Git através dos meus estudos e projetos realizados</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">
+          <a href="https://marlonmorari.github.io/cards-btd6/" target="_blank">
+            <img src="src/imagens/cards-btd6.png" alt="cards bloonts td 6" />
+            <h3>Projeto Cards Bloons TD 6</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://marlonmorari.github.io/mini-portfolio/" target="_blank">
+            <img src="src/imagens/mini-portfolio.png" alt="mini portfólio"/>
+            <h3>Projeto Mini Portfólio - Marlon Morari</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://marlonmorari.github.io/landing-page/" target="_blank">
+            <img src="src/imagens/landing-page-padrao.png" alt="Nome do projeto" />
+            <h3>Projeto Landing Page Padrão</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML e CSS</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://github.com">
+            <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
+            <h3>Projeto 4</h3>
+            <div class="informacoes-projeto">
+              <p>Lorem ipsum</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Minhas redes</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/marlon-morari-934a1a21a/" class="outer-shadow" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/MarlonMorari" class="outer-shadow" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/marlon_morari/" class="outer-shadow" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
