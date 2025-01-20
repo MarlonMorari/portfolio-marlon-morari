@@ -37,7 +37,7 @@
     }
 
     .sobre-mim .imagem-sobre-mim {        
-        max-width: 100%;
+        max-width: 70%;
         padding: 0 var(--mobile-padding);
         margin-bottom: 50px;
     }
